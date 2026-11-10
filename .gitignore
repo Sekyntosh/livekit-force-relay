@@ -1,0 +1,20 @@
+# Nested LiveKit clone has its own git; keep it local, do not nest-commit
+upstream-livekit/
+
+# Built image tarballs
+docker/*.tar
+
+# Local agent / spec notes (not part of the public kit)
+AGENTS.md
+TECH_SPEC.md
+FORK.md
+docker/DEPLOY.md
+
+# Build / IDE
+*.exe
+*.test
+*.out
+.idea/
+.vscode/
+*.swp
+.DS_Store

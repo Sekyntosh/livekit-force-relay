@@ -1,0 +1,10 @@
+livekit-force-relay
+Copyright 2026 Sekyntosh
+
+This project includes a backport patch and build scripts for LiveKit Server.
+LiveKit Server is Copyright LiveKit, Inc. and contributors, licensed under
+the Apache License, Version 2.0. See LICENSE.
+
+The `rtc.force_relay` behaviour is a port of upstream pull request:
+https://github.com/livekit/livekit/pull/3900
+onto the LiveKit tag v1.13.11. Credit to the authors and reviewers of that PR.
